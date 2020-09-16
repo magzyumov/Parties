@@ -1,0 +1,22 @@
+{
+  "id": 2000,
+  "name": "Party",
+  "picture": "https://million-wallpapers.ru/pejzazhi-343-android/plyazh-zakat-pesok-more-vecher-24395.html",
+  "members": [
+    {
+      "id": 7,
+      "name": "Michael",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Rachel",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+    }
+  ],
+  "organizer": {
+      "id": 12,
+      "name": "Rachel",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+    }
+}

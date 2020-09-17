@@ -12,8 +12,8 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/itemCardViewMargin"
-        app:cardCornerRadius="@dimen/itemCardViewCornerRadius"
+        android:layout_marginBottom="@dimen/mainLeftMargin"
+        android:outlineProvider="none"
         app:cardBackgroundColor="@color/colorWhite">
 
         <LinearLayout
@@ -24,27 +24,30 @@
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/imageViewAvatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:scaleType="center"
                 app:avatar="@{member.avatar}"
                 app:shapeAppearanceOverlay="@style/roundedImageViewMember" />
 
+            <TextView
+                android:id="@+id/textViewName"
+                style="@style/partyTextStyle"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/itemTextViewMargin"
+                android:text="@{member.name}" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/itemTextViewMarginStart"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/mainLeftMargin">
 
-                <TextView
-                    android:id="@+id/textViewName"
-                    style="@style/TextAppearance.AppCompat.Title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/itemTextViewMargin"
-                    android:text="@{member.name}" />
+
 
             </LinearLayout>
         </LinearLayout>

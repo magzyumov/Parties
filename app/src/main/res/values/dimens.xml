@@ -2,13 +2,16 @@
     <dimen name="mainLeftMargin">16dp</dimen>
     <dimen name="mainRightMargin">16dp</dimen>
 
+    <dimen name="participationMarginTop">32dp</dimen>
+
+    <dimen name="organizerMarginTop">16dp</dimen>
 
     //Item Dimen
-    <dimen name="itemCardViewMarginTop">4dp</dimen>
-    <dimen name="itemCardViewMarginBottom">4dp</dimen>
-    <dimen name="itemCardViewMarginStart">4dp</dimen>
-    <dimen name="itemCardViewMarginEnd">4dp</dimen>
-    <dimen name="itemCardViewMargin">2dp</dimen>
+    <dimen name="itemRecyclerViewMarginTop">16dp</dimen>
+    <dimen name="itemRecyclerViewMarginBottom">16dp</dimen>
+    <dimen name="itemRecyclerViewMarginStart">16dp</dimen>
+    <dimen name="itemRecyclerViewMarginEnd">16dp</dimen>
+    <dimen name="itemRecyclerViewMargin">16dp</dimen>
 
     <dimen name="itemAvatarRadius">56dp</dimen>
 

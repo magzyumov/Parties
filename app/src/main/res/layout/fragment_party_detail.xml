@@ -7,20 +7,79 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorWhite"
-    tools:context=".ui.fragments.PartyDetailFragment">
+    tools:context=".ui.fragments.detail.PartyDetailFragment">
 
     <ImageView
         android:id="@+id/imageViewParty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewMembers"
+    <LinearLayout
+        android:id="@+id/linearLayoutOrganizer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/mainRightMargin"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/mainLeftMargin"
         android:layout_marginEnd="@dimen/mainRightMargin"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_member" />
+        android:layout_marginTop="@dimen/organizerMarginTop">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageViewOrganizer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            app:shapeAppearanceOverlay="@style/roundedImageViewMember" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/mainLeftMargin">
+            <TextView
+                android:id="@+id/textViewPartyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/partyTextStyle"
+                android:textSize="24sp"
+                tools:text="@string/text_sample_party_name"/>
+
+            <TextView
+                android:id="@+id/textViewOrganizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/partyTextStyle"
+                android:textSize="14sp"
+                tools:text="@string/text_sample_organizer"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/mainLeftMargin"
+        android:layout_marginEnd="@dimen/mainRightMargin"
+        android:layout_marginTop="@dimen/participationMarginTop">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_participation"
+            style="@style/partyTextStyle"
+            android:textSize="12sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewMembers"
+            android:layout_marginTop="@dimen/itemRecyclerViewMarginTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_member" />
+    </LinearLayout>
+
+
 
 </LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Вечеринки</string>
+
+    <string name="title_party">Вечеринка</string>
+    <string name="text_participation">С Вами придут</string>
+
+    <string name="text_sample_party_name">Именины</string>
+    <string name="text_sample_organizer">Пригласил(а): %s</string>
+</resources>

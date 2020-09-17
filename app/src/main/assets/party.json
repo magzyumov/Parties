@@ -1,22 +1,22 @@
 {
   "id": 2000,
-  "name": "Party",
-  "picture": "https://million-wallpapers.ru/pejzazhi-343-android/plyazh-zakat-pesok-more-vecher-24395.html",
+  "name": "Именины",
+  "picture": "https://thesarafan.ru/uploads/images/event/5bf/e84/5bfe841f800cb784346630.jpg",
   "members": [
     {
       "id": 7,
-      "name": "Michael",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+      "name": "Инесса",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRniyShDqvUEvAt-SHuB0opnkxlJJiCWpROeQ&usqp=CAU"
     },
     {
       "id": 12,
-      "name": "Rachel",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+      "name": "Васисуалий",
+      "avatar": "https://lh3.googleusercontent.com/proxy/q72WyJPJWXhMLjRkBN_635-Gnx5YfSsdjdltO2dj1qfvup2sy7qVnFXFh8D8tc9lV9MVORb_y7mXIcHP5z2WaG5WBUw"
     }
   ],
   "organizer": {
       "id": 12,
-      "name": "Rachel",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+      "name": "Кристина",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9qfaPzjAwuNxaJO5RzHeLsyPJZT6-Avq2ig&usqp=CAU"
     }
 }

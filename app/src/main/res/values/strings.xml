@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Party</string>
+    <string name="app_name">Parties</string>
+
+    <string name="title_party">Party</string>
+    <string name="text_participation">They will come with you</string>
+
+    <string name="text_sample_party_name">Birthday</string>
+    <string name="text_sample_organizer">Invited by: %s</string>
 </resources>
